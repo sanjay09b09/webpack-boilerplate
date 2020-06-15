@@ -2,7 +2,7 @@ import React , {Suspense} from 'react'
 import './app.scss'
 import icon from '../assets/nasa-logo.png'
 // import App2 from './app2'
-const App2 = React.lazy(() => import('./App2'));
+const App2 = React.lazy(() => import('./app2'));
 
 
 class App extends React.Component {
